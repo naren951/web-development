@@ -29,6 +29,7 @@ function makeSound(key){
         case "l": var kick_bass = new Audio("sounds/kick-bass.mp3");
                   kick_bass.play();
                   break;
+        default: console.log(key)
     }
 
     // var audio = new Audio("sounds/tom-1.mp3");
