@@ -1,6 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
+require("dotenv").config({path: ".env"});
+
 
 const app = express();
 
@@ -32,6 +34,3 @@ app.post("/", function(req,res){
 app.listen(3000, function(){
     console.log("server listening on port 3000");
 })
-
-//8d03b2b03f
-// 065ab0345689f834019ea9fcd8e6f0ac-us13
